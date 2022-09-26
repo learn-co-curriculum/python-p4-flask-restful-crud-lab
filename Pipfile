@@ -7,12 +7,12 @@ name = "pypi"
 flask = "*"
 flask-sqlalchemy = "*"
 flask-migrate = "*"
-flask-restful = "*"
 sqlalchemy-serializer = "*"
 pytest = "*"
 ipdb = "*"
+flask-restful = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.8"
+python_version = "3.8.13"
