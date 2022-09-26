@@ -55,7 +55,7 @@ To see how the React application and Flask API are interacting, you can run the
 Flask application in one terminal by running:
 
 ```console
-$ rails s
+$ flask run
 ```
 
 Then, **open another terminal** and run React:
@@ -112,8 +112,8 @@ Response Body
 #### Destroy Route
 
 Making a DELETE request to this route should delete one plant from the database.
-You should return a response of `head :no_content` to indicate a successful
-deletion.
+You should return a response of an empty string with the status code 204 (No
+Content) to indicate a successful deletion.
 
 ```txt
 DELETE /plants/:id
