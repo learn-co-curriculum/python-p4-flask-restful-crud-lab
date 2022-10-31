@@ -67,7 +67,7 @@ $ npm start --prefix client
 Each application will run on its own port on `localhost`:
 
 - React: [http://localhost:4000](http://localhost:4000)
-- Flask: [http://localhost:5000](http://localhost:5000)
+- Flask: [http://localhost:5555](http://localhost:5555)
 
 ## Deliverables
 
