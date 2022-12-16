@@ -58,7 +58,7 @@ To see how the React application and Flask API are interacting, you can run the
 Flask application in one terminal by running:
 
 ```console
-$ flask run
+$ python app.py
 ```
 
 Then, **open another terminal** and run React:
@@ -70,7 +70,7 @@ $ npm start --prefix client
 Each application will run on its own port on `localhost`:
 
 - React: [http://localhost:4000](http://localhost:4000)
-- Flask: [http://localhost:5000](http://localhost:5000)
+- Flask: [http://localhost:5555](http://localhost:5555)
 
 ## Deliverables
 
