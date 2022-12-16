@@ -58,7 +58,7 @@ To see how the React application and Flask API are interacting, you can run the
 Flask application in one terminal by running:
 
 ```console
-$ flask run
+$ python app.py
 ```
 
 Then, **open another terminal** and run React:
