@@ -4,8 +4,8 @@
 
 - Build RESTful APIs that are easy to navigate and use in applications.
 - Develop a Flask API with successful frontend connections via `fetch()`.
-- Integrate update and delete routes with the associated actions to return
-  the appropriate JSON data.
+- Integrate update and delete routes with the associated actions to return the
+  appropriate JSON data.
 
 ---
 
@@ -15,16 +15,16 @@
   applications that use HTTP in a consistent, human-readable, machine-readable
   way.
 - **Application Programming Interface (API)**: a software application that
-  allows two or more software applications to communicate with one another.
-  Can be standalone or incorporated into a larger product.
+  allows two or more software applications to communicate with one another. Can
+  be standalone or incorporated into a larger product.
 - **HTTP Request Method**: assets of HTTP requests that tell the server which
   actions the client is attempting to perform on the located resource.
 - **`GET`**: the most common HTTP request method. Signifies that the client is
   attempting to view the located resource.
 - **`POST`**: the second most common HTTP request method. Signifies that the
   client is attempting to submit a form to create a new resource.
-- **`PATCH`**: an HTTP request method that signifies that the client is attempting
-  to update a resource with new information.
+- **`PATCH`**: an HTTP request method that signifies that the client is
+  attempting to update a resource with new information.
 - **`PUT`**: an HTTP request method that signifies that the client is attempting
   to update a resource with new information contained in a complete record.
 - **`DELETE`**: an HTTP request method that signifies that the client is
@@ -83,9 +83,8 @@ actions that return the appropriate JSON data:
 
 #### Update Route
 
-Making a PATCH request to this route with an object in the body should update one
-plant, and return the updated plant in the response. You should use strong
-params to handle the update.
+Making a PATCH request to this route with an object in the body should update
+one plant, and return the updated plant in the response.
 
 ```txt
 PATCH /plants/:id
