@@ -7,7 +7,7 @@
 - Integrate update and delete routes with the associated actions to return
   the appropriate JSON data.
 
-***
+---
 
 ## Key Vocab
 
@@ -30,7 +30,7 @@
 - **`DELETE`**: an HTTP request method that signifies that the client is
   attempting to delete a resource.
 
-***
+---
 
 ## Introduction
 
@@ -45,6 +45,8 @@ To set up the frontend and backend dependencies, from the root directory, run:
 
 ```console
 $ npm install --prefix client
+$ pipenv install
+$ pipenv shell
 ```
 
 In `server/`, run:
@@ -127,7 +129,7 @@ Response Body
 no content
 ```
 
-***
+---
 
 ## Resources
 
