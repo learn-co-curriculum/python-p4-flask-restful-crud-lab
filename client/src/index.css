@@ -111,10 +111,12 @@ input:focus {
 
 .card button {
   margin-top: 0.5rem;
+  width: 100%;
 }
 
 .btn-group {
   display: flex;
+  gap:10px;
   justify-content: space-between;
 }
 
