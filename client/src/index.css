@@ -17,7 +17,7 @@ h2 {
 }
 
 button {
-  padding: 0.25rem 1rem;
+  padding: 0.5rem 1.2rem;
   font-family: inherit;
   border: none;
   cursor: pointer;
@@ -113,6 +113,11 @@ input:focus {
   margin-top: 0.5rem;
 }
 
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+}
+
 @media (min-width: 768px) {
   .cards {
     display: flex;
@@ -123,6 +128,7 @@ input:focus {
     width: calc(33% - 2rem);
   }
 }
+
 
 @media (min-width: 1024px) {
   .card {
