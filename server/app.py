@@ -16,6 +16,7 @@ db.init_app(app)
 
 api = Api(app)
 
+
 class Plants(Resource):
 
     def get(self):
@@ -23,7 +24,6 @@ class Plants(Resource):
         return make_response(jsonify(plants), 200)
 
     def post(self):
-
         data = request.get_json()
 
         new_plant = Plant(
@@ -37,20 +37,19 @@ class Plants(Resource):
 
         return make_response(new_plant.to_dict(), 201)
 
-    
-    
 
 api.add_resource(Plants, '/plants')
+
 
 class PlantByID(Resource):
 
     def get(self, id):
-      
         plant = Plant.query.filter_by(id=id).first().to_dict()
         return make_response(jsonify(plant), 200)
 
-api.add_resource(PlantByID, '/plants/<int:id>')  
-        
+
+api.add_resource(PlantByID, '/plants/<int:id>')
+
 
 if __name__ == '__main__':
     app.run(port=5555, debug=True)
