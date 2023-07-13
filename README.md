@@ -45,6 +45,8 @@ To set up the frontend and backend dependencies, from the root directory, run:
 
 ```console
 $ npm install --prefix client
+$ pipenv install
+$ pipenv shell
 ```
 
 In `server/`, run:
@@ -136,5 +138,4 @@ no content
 - [Proxying API Requests in Development - React][proxying]
 
 [frest]: https://flask-restful.readthedocs.io/en/latest/
-[proxying]:
-  https://create-react-app.dev/docs/proxying-api-requests-in-development/
+[proxying]: https://create-react-app.dev/docs/proxying-api-requests-in-development/
