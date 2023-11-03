@@ -138,4 +138,5 @@ no content
 - [Proxying API Requests in Development - React][proxying]
 
 [frest]: https://flask-restful.readthedocs.io/en/latest/
-[proxying]: https://create-react-app.dev/docs/proxying-api-requests-in-development/
+[proxying]:
+  https://create-react-app.dev/docs/proxying-api-requests-in-development/
